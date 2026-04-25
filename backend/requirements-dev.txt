@@ -1,0 +1,23 @@
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.23.2
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+httpx==0.25.2
+factory-boy==3.3.1
+faker==21.0.0
+
+# Linting & Formatting
+ruff==0.1.8
+black==23.12.0
+mypy==1.7.1
+isort==5.13.2
+
+# Type Stubs
+types-python-dateutil==2.8.19.14
+types-passlib==1.7.7.13
+types-redis==4.6.0.11
+
+# Dev Tools
+ipython==8.18.1
+pre-commit==3.6.0
