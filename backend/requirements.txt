@@ -1,0 +1,46 @@
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy[asyncio]==2.0.23
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+alembic==1.13.0
+
+# Redis
+redis[hiredis]==5.0.1
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+
+# Validation & Serialization
+pydantic==2.5.2
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# HTTP Client
+httpx==0.25.2
+
+# Task Scheduling
+apscheduler==3.10.4
+
+# Logging
+structlog==23.2.0
+
+# Utilities
+python-dateutil==2.8.2
+python-barcode==0.15.1
+Pillow==10.1.0
+openpyxl==3.1.2
+pandas==2.1.4
+numpy==1.26.2
+
+# WebSockets
+websockets==12.0
+
+# CORS
+starlette==0.27.0
